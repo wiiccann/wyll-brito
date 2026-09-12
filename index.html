@@ -203,9 +203,9 @@
                 </div>
                 
                 <div class="flex items-center gap-4">
-                    <!-- Dropdown Elegante de Idiomas -->
+                    <!-- Dropdown Elegante de Idiomas (Sem Borda, Com Destaque Nav-Glow e Tamanho Ajustado) -->
                     <div class="relative group">
-                        <select onchange="changeLang(this.value)" class="custom-dropdown bg-transparent border border-neutral-300 dark:border-neutral-800 px-4 py-2.5 rounded-xl font-sans text-xs uppercase tracking-widest font-semibold text-neutral-600 dark:text-neutral-400 hover:border-accent hover:text-accent dark:hover:text-accent transition-all cursor-pointer outline-none focus:border-accent focus:ring-1 focus:ring-accent pr-8">
+                        <select onchange="changeLang(this.value)" class="custom-dropdown bg-transparent px-5 py-3 rounded-xl font-sans text-xs uppercase tracking-widest font-semibold text-neutral-600 dark:text-neutral-400 hover:text-accent dark:hover:text-accent transition-all cursor-pointer outline-none pr-8 nav-glow">
                             <option value="pt" class="bg-offwhite dark:bg-pureblack text-neutral-900 dark:text-white">PT</option>
                             <option value="en" class="bg-offwhite dark:bg-pureblack text-neutral-900 dark:text-white">EN</option>
                         </select>
@@ -214,9 +214,9 @@
                         </div>
                     </div>
 
-                    <!-- Botão de Tema -->
-                    <button onclick="toggleTheme()" class="w-11 h-11 flex items-center justify-center border border-neutral-300 dark:border-neutral-800 rounded-xl hover:border-accent hover:text-accent transition-colors duration-300 bg-transparent nav-glow">
-                        <svg id="theme-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <!-- Botão de Tema (Sem Borda, Com Destaque Nav-Glow e Tamanho Aumentado) -->
+                    <button onclick="toggleTheme()" class="w-12 h-12 flex items-center justify-center rounded-xl hover:text-accent transition-colors duration-300 bg-transparent nav-glow">
+                        <svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                     </button>
                 </div>
             </div>
@@ -227,15 +227,15 @@
     <header id="project-header" class="hidden">
         <nav class="fixed top-0 left-0 right-0 z-40 border-b border-neutral-200/80 dark:border-neutral-800/60 bg-offwhite/80 dark:bg-pureblack/80 backdrop-blur-xl transition-all duration-300">
             <div class="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
-                <!-- Botão Voltar restaurado com seta e palavra VOLTAR -->
-                <button onclick="switchView('portfolio')" class="font-sans text-xs uppercase tracking-widest font-bold text-neutral-700 dark:text-neutral-300 hover:text-accent dark:hover:text-accent flex items-center gap-2 border border-neutral-300 dark:border-neutral-800 px-4 py-2.5 rounded-xl hover:border-accent transition-all group/back nav-glow">
+                <!-- Botão Voltar (Sem Borda, Com Destaque Nav-Glow e Tamanho Aumentado) -->
+                <button onclick="switchView('portfolio')" class="font-sans text-xs uppercase tracking-widest font-bold text-neutral-700 dark:text-neutral-300 hover:text-accent dark:hover:text-accent flex items-center gap-2 px-5 py-3 rounded-xl transition-all group/back nav-glow">
                     <span class="transform group-hover/back:-translate-x-1 transition-transform text-base">←</span>
                     <span data-i18n="back-btn">voltar</span>
                 </button>
                 
                 <div class="flex items-center gap-4">
                     <div class="relative group">
-                        <select onchange="changeLang(this.value)" class="custom-dropdown bg-transparent border border-neutral-300 dark:border-neutral-800 px-4 py-2.5 rounded-xl font-sans text-xs uppercase tracking-widest font-semibold text-neutral-600 dark:text-neutral-400 hover:border-accent hover:text-accent dark:hover:text-accent transition-all cursor-pointer outline-none focus:border-accent focus:ring-1 focus:ring-accent pr-8">
+                        <select onchange="changeLang(this.value)" class="custom-dropdown bg-transparent px-5 py-3 rounded-xl font-sans text-xs uppercase tracking-widest font-semibold text-neutral-600 dark:text-neutral-400 hover:text-accent dark:hover:text-accent transition-all cursor-pointer outline-none pr-8 nav-glow">
                             <option value="pt" class="bg-offwhite dark:bg-pureblack text-neutral-900 dark:text-white">PT</option>
                             <option value="en" class="bg-offwhite dark:bg-pureblack text-neutral-900 dark:text-white">EN</option>
                         </select>
@@ -243,8 +243,8 @@
                             <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </div>
                     </div>
-                    <button onclick="toggleTheme()" class="w-11 h-11 flex items-center justify-center border border-neutral-300 dark:border-neutral-800 rounded-xl hover:border-accent hover:text-accent transition-colors duration-300 bg-transparent nav-glow">
-                        <svg id="theme-icon-proj" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <button onclick="toggleTheme()" class="w-12 h-12 flex items-center justify-center rounded-xl hover:text-accent transition-colors duration-300 bg-transparent nav-glow">
+                        <svg id="theme-icon-proj" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                     </button>
                 </div>
             </div>
@@ -362,7 +362,8 @@
                             <img src="https://i.imgur.com/tkiP1oM.jpg" alt="Cafeteria UX Case" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                         </a>
                         <div class="flex flex-col justify-center min-w-0">
-                            <div data-i18n="proj1-tag" class="font-sans text-[10px] text-accent border border-accent/30 px-3 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-bold bg-accent-light">UX Case Study</div>
+                            <!-- Tag com borda limpa/elegante, sem aspecto acadêmico verde -->
+                            <div data-i18n="proj1-tag" class="font-sans text-[10px] text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 px-3.5 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-semibold bg-neutral-100/60 dark:bg-neutral-900/60">UX Case Study</div>
                             
                             <a href="https://www.figma.com/proto/yNHqX5cQlKm59C2xhXnvaJ/UX-Case-Study" target="_blank" class="focus:outline-none">
                                 <h3 data-i18n="proj1-title" class="text-4xl md:text-5xl font-bold font-display mb-6 text-balance hover:text-accent transition-colors w-full">Otimizando UX em Cafeteria To-Go</h3>
@@ -385,7 +386,8 @@
                             <img src="https://i.imgur.com/IjAAVc4.jpg" alt="Elaine Marcante Ebook" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 relative z-0">
                         </button>
                         <div class="flex flex-col justify-center min-w-0">
-                            <div data-i18n="proj2-tag" class="font-sans text-[10px] text-accent border border-accent/30 px-3 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-bold bg-accent-light">Identidade Visual &amp; E-book</div>
+                            <!-- Tag com borda limpa/elegante, sem aspecto acadêmico verde -->
+                            <div data-i18n="proj2-tag" class="font-sans text-[10px] text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 px-3.5 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-semibold bg-neutral-100/60 dark:bg-neutral-900/60">Identidade Visual &amp; E-book</div>
                             
                             <button onclick="switchView('elaine')" class="text-left w-full focus:outline-none">
                                 <h3 data-i18n="proj2-title" class="text-4xl md:text-5xl font-bold font-display mb-6 text-balance hover:text-accent transition-colors w-full">Ebook + Identidade Visual: Elaine Marcante</h3>
@@ -407,7 +409,8 @@
                             <img src="https://i.imgur.com/mbCL4Wy.jpg" alt="Solace - Projeto de Mobiliário" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                         </button>
                         <div class="flex flex-col justify-center min-w-0">
-                            <div data-i18n="proj3-tag" class="font-sans text-[10px] text-accent border border-accent/30 px-3 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-bold bg-accent-light">Soluções em Design</div>
+                            <!-- Tag com borda limpa/elegante, sem aspecto acadêmico verde -->
+                            <div data-i18n="proj3-tag" class="font-sans text-[10px] text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 px-3.5 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-semibold bg-neutral-100/60 dark:bg-neutral-900/60">Soluções em Design</div>
                             
                             <button onclick="switchView('solace')" class="text-left w-full focus:outline-none">
                                 <h3 data-i18n="proj3-title" class="text-4xl md:text-5xl font-bold font-display mb-6 text-balance hover:text-accent transition-colors w-full">Solace - Projeto de Mobiliário</h3>
@@ -429,7 +432,8 @@
                             <img src="https://i.imgur.com/yavEprd.jpg" alt="Projeto Avança" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                         </button>
                         <div class="flex flex-col justify-center min-w-0">
-                            <div data-i18n="proj4-tag" class="font-sans text-[10px] text-accent border border-accent/30 px-3 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-bold bg-accent-light">Processo de Aprendizagem</div>
+                            <!-- Tag com borda limpa/elegante, sem aspecto acadêmico verde -->
+                            <div data-i18n="proj4-tag" class="font-sans text-[10px] text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 px-3.5 py-1.5 rounded-full inline-block w-max mb-5 uppercase tracking-wider font-semibold bg-neutral-100/60 dark:bg-neutral-900/60">Processo de Aprendizagem</div>
                             
                             <button onclick="switchView('avanca')" class="text-left w-full focus:outline-none">
                                 <h3 data-i18n="proj4-title" class="text-4xl md:text-5xl font-bold font-display mb-6 text-balance hover:text-accent transition-colors w-full">Projeto Avança</h3>
@@ -594,7 +598,7 @@
                         <span id="slide-counter" class="font-sans text-sm font-semibold text-neutral-700 dark:text-neutral-300">1 / 38</span>
                         
                         <!-- Botão de tela cheia apenas signo -->
-                        <button onclick="toggleFullscreenElaine()" aria-label="Tela Cheia" class="w-11 h-11 flex items-center justify-center border border-neutral-300 dark:border-neutral-800 rounded-xl hover:border-accent hover:text-accent transition-all bg-transparent nav-glow">
+                        <button onclick="toggleFullscreenElaine()" aria-label="Tela Cheia" class="w-12 h-12 flex items-center justify-center rounded-xl hover:text-accent transition-all bg-transparent nav-glow">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4m-4 0l5 5m11-5V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
                         </button>
                     </div>
@@ -676,7 +680,7 @@
                         <span id="solace-counter" class="font-sans text-sm font-semibold text-neutral-700 dark:text-neutral-300">1 / 9</span>
                         
                         <!-- Botão de tela cheia apenas signo -->
-                        <button onclick="toggleFullscreenSolace()" aria-label="Tela Cheia" class="w-11 h-11 flex items-center justify-center border border-neutral-300 dark:border-neutral-800 rounded-xl hover:border-accent hover:text-accent transition-all bg-transparent nav-glow">
+                        <button onclick="toggleFullscreenSolace()" aria-label="Tela Cheia" class="w-12 h-12 flex items-center justify-center rounded-xl hover:text-accent transition-all bg-transparent nav-glow">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4m-4 0l5 5m11-5V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
                         </button>
                     </div>
@@ -708,7 +712,7 @@
         <!-- PROJECT 04: AVANÇA -->
         <div id="view-avanca" class="hidden min-h-screen py-24 px-6 md:px-12 max-w-5xl mx-auto">
             <header class="mb-16 border-b border-neutral-200/80 dark:border-neutral-800/80 pb-12">
-                <span data-i18n="avanca-meta" class="font-sans text-[10px] font-bold uppercase tracking-widest bg-accent-light text-accent px-4 py-2 rounded-full">Processo de Aprendizagem · ESPRO · 2022</span>
+                <span data-i18n="avanca-meta" class="font-sans text-[10px] font-bold uppercase tracking-widest bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 px-4 py-2 rounded-full">Processo de Aprendizagem · ESPRO · 2022</span>
                 <h1 data-i18n="avanca-title" class="text-5xl md:text-7xl font-bold font-display mt-8 mb-6 text-balance">Projeto Avança</h1>
                 <p data-i18n="avanca-desc" class="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 max-w-3xl leading-relaxed font-normal">
                     Projeto final de conclusão do curso de aprendizado da escola ESPRO de ensino. Apresentação cobrindo trajetória pessoal, inspirações, cotidiano na empresa Solistica e reflexões de futuro.
@@ -1084,7 +1088,7 @@
             } else {
                 mainHeader.classList.remove('hidden');
                 projectHeader.classList.add('hidden');
-                quoteBanner?.classList.remove('hidden');
+                quoteBanner?.classList.add('hidden');
             }
             
             window.scrollTo({ top: 0, behavior: 'smooth' });
